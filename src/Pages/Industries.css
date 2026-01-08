@@ -1,0 +1,108 @@
+body {
+  background: linear-gradient(to bottom, white, rgb(216, 216, 216));
+}
+
+.sub-header {
+  height: 60px;
+  width: auto;
+  margin: 0 5%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.spanHeader {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+
+.headerButton {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 20%;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+}
+
+.industry-box {
+  position: relative;
+}
+
+.city-image {
+  width: 100%;
+  height: 400px;
+}
+
+.div-box {
+  opacity: 0.5;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  height: 300px;
+  width: 600px;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.industry-name {
+  margin-left: 20px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.icons-main {
+  display: flex;
+  margin: 100px 40px;
+}
+
+.images-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  /* flex: 0 0 33%; */
+  /* background-color: aquamarine; */
+  height: 250px;
+  width: 29%;
+  margin: 60px 20px;
+  position: relative;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.data-name {
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  left: 30px;
+  top: 190px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.industry-name1 {
+  margin-left: 20px;
+  font-size: 20px;
+  color: black;
+}
