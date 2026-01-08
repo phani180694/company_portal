@@ -6,6 +6,9 @@ import Contact from "./Pages/Contact";
 import NavBar from "./component/NavBar";
 import JobDetails from "./component/JobDetails";
 import { JobProvider } from "./Context/JobContext";
+import Services from "./Pages/Services/Service";
+import About from "./Pages/About/About";
+import Industries from "./Pages/Industries";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Careers" element={<Careers />} />
             <Route path="/careers/:id" element={<JobDetails />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/industries" element={<Industries />} />
           </Routes>
         </div>
       </JobProvider>

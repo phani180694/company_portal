@@ -3,6 +3,7 @@
   margin: 40px auto;
   padding: 0 20px;
   font-family: sans-serif;
+  background-color: #f2edd1;
 }
 
 .careers-header {
@@ -25,14 +26,16 @@
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background-color: #fffff0;
   transition: transform 0.2s;
 }
 
-/* .job-card:hover {
+.job-card:hover {
   transform: translateY(-2px);
-} */
+  /* background-color: #F9CB99; */
+  background-color: #feffc4;
+}
 
 .job-details h3 {
   margin-top: 0;
@@ -65,4 +68,14 @@
   border-top: 1px solid #eee;
   font-size: 0.9em;
   color: #888;
+}
+.search-bar {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.search-bar input {
+  padding: 10px;
 }
